@@ -15,7 +15,7 @@ x_test = x_test.reshape((x_test.shape[0], x_test.shape[1], x_test.shape[2], 1))
 x_test = x_test.astype('float32') / 255.0
 
 #server URL
-url = 'http://localhost:8501/v1/models/classifier:predict'
+url = 'http://localhost:8605/v1/models/classifier:predict'
 
 
 def show(idx, title):
