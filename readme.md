@@ -6,6 +6,8 @@
 
 docker pull tensorflow/serving
 
+TFServing on local host at http://localhost:8605/v1/models/classifier
+
 ## Docker 
 
 ### for copying the trained model from local to docker, please replace path with your specific path
